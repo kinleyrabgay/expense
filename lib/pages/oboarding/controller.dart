@@ -20,8 +20,8 @@ class OnboardingController extends GetxController {
 
   void nextPage() {
     if (currentPageIndex.value == 2) {
-      StorageService.to.setBool('isFirstTime', false);
-      Get.offAll(() => AppRoutes.signIn);
+      // StorageService.to.setBool('isFirstTime', false);
+      Get.offAllNamed(AppRoutes.signIn);
     } else {
       int page = currentPageIndex.value + 1;
       pageController.jumpToPage(page);

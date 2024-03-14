@@ -19,7 +19,7 @@ class ETextString {
   // --------------------------------- AUTHENTICATION ------------------------------
   static const String authEmailTitle = "Enter your email address";
   static const String authEmailSubTitle =
-      "Sign in with your email. If you don't have and BidArt account yet, we'll get on set up for you";
+      "Sign in with your email. If you don't have and Expense account yet, we'll get on set up for you.";
 
   static const String createPasswordTitle = "Create Password";
   static const String createPasswordSubTitle = "Must be 8 character or long";

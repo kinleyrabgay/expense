@@ -1,4 +1,5 @@
 import 'package:expense/common/routes/name.dart';
+import 'package:expense/pages/auth/sign-in/index.dart';
 import 'package:expense/pages/oboarding/index.dart';
 import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
@@ -17,8 +18,8 @@ class AppPages {
     ),
     GetPage(
       name: AppRoutes.signIn,
-      page: () => const OnboardingView(),
-      binding: OnboardingBinding(),
+      page: () => const LoginView(),
+      binding: LoginBinding(),
     ),
     GetPage(
       name: AppRoutes.expense,

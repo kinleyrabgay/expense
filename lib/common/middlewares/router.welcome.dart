@@ -14,6 +14,7 @@ class RouteWelcomeMiddleware extends GetMiddleware {
   RouteSettings? redirect(String? route) {
     print(ConfigStore.to.isFirstOpen);
     if (ConfigStore.to.isFirstOpen == false) {
+      print('Here');
       return null;
     } else if (UserStore.to.isLogin == true) {
       return const RouteSettings(name: AppRoutes.expense);

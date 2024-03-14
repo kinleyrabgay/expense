@@ -46,6 +46,11 @@ dependencies:
   cloud_firestore: ^4.15.9
   shared_preferences: ^2.2.2
   smooth_page_indicator: ^1.1.0
+  flutter_easyloading: ^3.0.5
+  firebase_auth: ^4.17.9
+  google_sign_in: ^6.2.1
+  flutter_facebook_auth: ^6.1.1
+  firebase_core: ^2.27.1
 
 dev_dependencies:
   flutter_test:
